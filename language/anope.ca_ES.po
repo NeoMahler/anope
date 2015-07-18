@@ -19,62 +19,62 @@ msgstr ""
 #: modules/commands/os_forbid.cpp:312
 #, c-format
 msgid "%d channel(s) cleared, and %d channel(s) dropped."
-msgstr ""
+msgstr "·%d· canal(s) netejats, i ·%d" canal(s) esborrats."
 
 #: modules/commands/os_forbid.cpp:253
 #, fuzzy, c-format
 msgid "%d nickname(s) dropped."
-msgstr "El teu nickname ha estat expulsat."
+msgstr "·%d· nick(s) esborrats."
 
 #: modules/commands/cs_xop.cpp:219
 #, fuzzy, c-format
 msgid "%s added to %s %s list."
-msgstr "%s afegit a la llista de AKILLs."
+msgstr "%s afegit a la llista d'AKILLs."
 
 #: modules/commands/cs_access.cpp:220
 #, c-format
 msgid "%s added to %s access list at level %d."
-msgstr "%s afegit a la llista d'accés de %s amb nivel %d."
+msgstr "%s afegit a la llista d'accés de %s amb nivell %d."
 
 #: modules/commands/cs_access.cpp:218
 #, fuzzy, c-format
 msgid "%s added to %s access list at privilege %s (level %d)"
-msgstr "%s afegit a la llista d'accés de %s amb nivel %d."
+msgstr "%s afegit a la llista d'accés de %s (nivell %d)."
 
 #: modules/commands/cs_akick.cpp:165
 #, c-format
 msgid "%s added to %s autokick list."
-msgstr "%s afegit a la llista de kicks automàtics en el canal %s."
+msgstr "%s afegit a la llista de kick automàtic al canal %s."
 
 #: modules/commands/bs_badwords.cpp:306
 #, c-format
 msgid "%s added to %s bad words list."
-msgstr "%s afegida a  la llista de paraules malsonants de  %s."
+msgstr "%s afegida ala llista de paraules malsonants de %s."
 
 #: modules/commands/ns_access.cpp:45
 #, fuzzy, c-format
 msgid "%s added to %s's access list."
-msgstr "%s afegit a la teva lllista d'accés."
+msgstr "%s afegit a la llista d'accés de %s."
 
 #: modules/commands/ns_cert.cpp:204
 #, fuzzy, c-format
 msgid "%s added to %s's certificate list."
-msgstr "%s afegit a la teva lllista d'accés."
+msgstr "%s afegit a la llista certificada de %s."
 
 #: modules/commands/ms_ignore.cpp:56
 #, fuzzy, c-format
 msgid "%s added to ignore list."
-msgstr "%s afegit a la teva lllista d'accés."
+msgstr "%s afegit a la llista d'ignorats."
 
 #: modules/commands/os_sxline.cpp:408 modules/commands/os_sxline.cpp:641
 #, fuzzy, c-format
 msgid "%s added to the %s list."
-msgstr "%s afegit a la llista de AKILLs."
+msgstr "%s afegit a la llista %s."
 
 #: modules/commands/os_akill.cpp:202
 #, c-format
 msgid "%s added to the AKILL list."
-msgstr "%s afegit a la llista de AKILLs."
+msgstr "%s afegit a la llista d'AKILLs."
 
 #: modules/pseudoclients/botserv.cpp:134
 #, c-format
@@ -86,6 +86,11 @@ msgid ""
 "require a channel as a parameter will automatically have that parameter\n"
 "given.\n"
 msgstr ""
+"·%s· activa les ordres \"fantasy\" al canal.\n"
+"Les ordres fantasy són ordres que es podesn executar amb un missatge al\n"
+"canal, i dóna una manera més fàcil d'executar-les. Les ordres que\n"
+"requereixen un canal com a paràmetre tindràn aquest paràmetre de manera\n"
+"automàtica.\n"
 
 #: modules/pseudoclients/botserv.cpp:148
 #, fuzzy, c-format
@@ -98,14 +103,14 @@ msgid ""
 "more information on a specific command, type\n"
 "%s%s %s command.\n"
 msgstr ""
-"%s et permet crear un bot en el teu propi canal.\n"
+"%s et permet tenir un bot en el teu propi canal.\n"
 "Això ha estat creat per a usuaris que no poden\n"
-"tenir un bot en un host o configurar un bot, o per a us en xarxes\n"
-"que no permeten bots d'usuaris. Comandes\n"
+"tenir un bot en un host o configurar un bot, o per a ús en xarxes\n"
+"que no permeten bots d'usuaris. Les ordres\n"
 "disponibles estan llistades més endavant; per a\n"
-"utilitzar-los, escriu /msg %s comanda. per a més\n"
-"informació sobre un comanda especifica, escriu  \n"
-"/msg %s HELP comanda."
+"utilitzar-les, escriu /msg %s ordre·. Per a més\n"
+"informació sobre una ordre especifica, escriu  \n"
+"/msg %s HELP ordre·."
 
 #: modules/pseudoclients/nickserv.cpp:437
 #, fuzzy, c-format
@@ -117,12 +122,12 @@ msgid ""
 "For more information on a specific command, type\n"
 "%s%s %s command.\n"
 msgstr ""
-"%s Et permet \"registrar\" un nickname i\n"
-"prevenir a d'altres utilitzar-lo. Les següents comandes\n"
-"permeten el registre i manteniment de nicknames;\n"
-"per a utilitzar-los, escriu /msg %s comanda.\n"
-"per més informació sobre una comanda especifica\n"
-"escriu /msg %s HELP comanda."
+"%s et permet \"registrar\" un nick i\n"
+"prevenir a d'altres d'utilitzar-lo. Les següents ordres\n"
+"permeten el registre i manteniment de nicks;\n"
+"per a utilitzar-les, escriu /msg %s ordres.\n"
+"per més informació sobre una ordre específica\n"
+"escriu /msg %s HELP ordre."
 
 #: modules/pseudoclients/nickserv.cpp:444
 #, fuzzy, c-format
@@ -133,12 +138,12 @@ msgid ""
 "For more information on a specific command, type\n"
 "%s%s %s command.\n"
 msgstr ""
-"%s Et permet \"registrar\" un nickname i\n"
-"prevenir a d'altres utilitzar-lo. Les següents comandes\n"
-"permeten el registre i manteniment de nicknames;\n"
-"per a utilitzar-los, escriu /msg %s comanda.\n"
-"per més informació sobre una comanda especifica\n"
-"escriu /msg %s HELP comanda."
+"%s et permet \"registrar\" un nick i\n"
+"prevenir a d'altres d'utilitzar-lo. Les següents ordres\n"
+"permeten el registre i manteniment de nicks;\n"
+"per a utilitzar-les, escriu /msg %s ordre.\n"
+"per més informació sobre una ordre especifica\n"
+"escriu /msg %s HELP ordre."
 
 #: modules/pseudoclients/chanserv.cpp:248
 #, fuzzy, c-format
