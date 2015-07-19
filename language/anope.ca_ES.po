@@ -158,12 +158,12 @@ msgid ""
 msgstr ""
 "%s et permet registrar i controlar varis\n"
 "aspectes dels canals. Sovint, %s pot prevenir\n"
-"a usuaris maliciosos \"pendre\" canals limitant\n"
-"qui esta permés a tenir privilegis d'operador.\n"
-"Les comandes disponibles estan llistades a continuació;\n"
-"Per a utilitzar-los, escriu /msg %s comanda.\n"
-"Per més informació sobre una comanda especifica,\n"
-"escriu /msg %s HELP comanda.\n"
+"a usuaris maliciosos de \"pendre\" canals limitant\n"
+"qui pot tenir privilegis d'operador.\n"
+"Les ordres disponibles estan llistades a continuació;\n"
+"Per a utilitzar-les, escriu /msg %s ordre.\n"
+"Per més informació sobre una ordre especifica,\n"
+"escriu /msg %s HELP ordre.\n"
 " "
 
 #: modules/commands/bs_badwords.cpp:297
@@ -179,28 +179,28 @@ msgstr "%s ja esta present a la llista de kick automàtic en el canal %s."
 #: modules/commands/os_session.cpp:361
 #, c-format
 msgid "%s already exists on the EXCEPTION list."
-msgstr "%s already exists on the EXCEPTION list."
+msgstr "%s ja existeix a la llista d'excepcions."
 
 #: modules/commands/bs_kick.cpp:216 modules/commands/bs_kick.cpp:391
 #: modules/commands/bs_kick.cpp:522 modules/commands/bs_kick.cpp:653
 #, c-format
 msgid "%s cannot be taken as times to ban."
-msgstr "%s no pot ser pres com vegades a banegar"
+msgstr "%s no pot ser pres com vegades a bandejar"
 
 #: modules/commands/os_mode.cpp:157
 #, fuzzy, c-format
 msgid "%s changed your usermodes to %s."
-msgstr "%s changed your usermodes."
+msgstr "%s canviats els teus modes d'usuari a %s."
 
 #: modules/commands/os_list.cpp:46
 #, fuzzy, c-format
 msgid "%s channel list:"
-msgstr "Fi de la llista de canals."
+msgstr "·%s· llista de canals:"
 
 #: modules/commands/cs_xop.cpp:347
 #, fuzzy, c-format
 msgid "%s deleted from %s %s list."
-msgstr "%s esborrat de la llista AOP de %s."
+msgstr "%s esborrat de la llista %s %s."
 
 #: modules/commands/cs_access.cpp:321
 #, c-format
